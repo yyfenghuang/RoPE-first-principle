@@ -1,6 +1,6 @@
 # Notebook scratch/sandbox, tidak untuk di-commit
-notebook/sandbox_*.ipynb
-notebook/scratch_*.ipynb
+sandbox_*.ipynb
+scratch_*.ipynb
 
 # Checkpoint otomatis Jupyter, selalu aman diabaikan
 .ipynb_checkpoints/
