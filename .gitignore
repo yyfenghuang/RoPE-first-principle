@@ -1,0 +1,17 @@
+# Notebook scratch/sandbox, tidak untuk di-commit
+notebook/sandbox_*.ipynb
+notebook/scratch_*.ipynb
+
+# Checkpoint otomatis Jupyter, selalu aman diabaikan
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python bytecode cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+.venv/
+*.egg-info/
+.pytest_cache/
+.DS_Store
