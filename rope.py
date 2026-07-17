@@ -1,7 +1,4 @@
 """Minimal RoPE (Rotary Position Embedding) primitives.
-
-Pure functions only. No I/O, no state, no model dependencies.
-See rope_implementation_docs.md for derivations and design notes.
 """
 
 import numpy as np
@@ -32,7 +29,6 @@ def inverse_frequencies(dim: int, base: float = 10000.0) -> np.ndarray:
 def apply_rope_adjacent(x: np.ndarray, position: int, freqs: np.ndarray) -> np.ndarray:
     """Apply RoPE using adjacent-pair convention: dims (2i, 2i+1) rotate by position * freqs[i].
 
-    This is the layout written in the RoFormer paper (Su et al. 2023, Eq. 15).
     x has shape (dim,); freqs has shape (dim // 2,).
     """
     dim = x.shape[-1]
