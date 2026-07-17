@@ -1,6 +1,5 @@
 # Notebook scratch/sandbox, tidak untuk di-commit
-sandbox_*.ipynb
-scratch_*.ipynb
+*sandbox*.ipynb
 
 # Cache font CJK, di-extract otomatis oleh cell score-matrix di
 # plot_sandbox.ipynb saat pertama kali jalan. Regenerable dari font sistem
