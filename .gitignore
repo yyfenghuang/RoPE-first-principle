@@ -2,6 +2,11 @@
 sandbox_*.ipynb
 scratch_*.ipynb
 
+# Cache font CJK, di-extract otomatis oleh cell score-matrix di
+# plot_sandbox.ipynb saat pertama kali jalan. Regenerable dari font sistem
+# lokal, tidak perlu di-commit (30MB, bukan aset yang ditulis tangan).
+assets/_cjk_sc_extracted.otf
+
 # Checkpoint otomatis Jupyter, selalu aman diabaikan
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
