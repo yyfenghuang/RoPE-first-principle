@@ -24,7 +24,7 @@ import sys
 
 import numpy as np
 
-from rope import attention_single_query, cosine_similarity, inverse_frequencies
+from scripts.rope import attention_single_query, cosine_similarity, inverse_frequencies
 
 DIM = 16
 PREFIX_LEN = 20

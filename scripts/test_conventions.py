@@ -14,7 +14,7 @@ import sys
 
 import numpy as np
 
-from rope import (
+from scripts.rope import (
     adjacent_to_half_permutation,
     apply_rope_adjacent,
     apply_rope_half,

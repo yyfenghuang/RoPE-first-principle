@@ -12,7 +12,7 @@ import sys
 
 import numpy as np
 
-from rope import rotate_2d
+from scripts.rope import rotate_2d
 
 ATOL = 1e-9
 
